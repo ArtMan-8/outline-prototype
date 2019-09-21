@@ -1,0 +1,137 @@
+* {
+  position: relative;
+
+  background: rgba(128, 0, 128, 0.1);
+  box-shadow: inset 0 0 0 1px purple;
+}
+
+*::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: 0;
+  left: -3px;
+  left: auto;
+
+  height: 20px;
+  padding: 2px 5px;
+
+  font-weight: bold;
+  font-size: 16px;
+  font-size: 20px;
+  font-family: "Courier New", monotype;
+  color: white;
+  text-transform: lowercase;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  background: purple;
+}
+
+body > * {
+  background: rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 0 5px green;
+}
+
+body > *::before {
+  color: white;
+
+  background: green;
+}
+
+body > * > * {
+  background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
+body > * > *::before {
+  color: white;
+
+  background: rgb(255, 45, 82);
+}
+
+body > * > * > * {
+  background: rgba(234, 255, 45, 0.2);
+  box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
+}
+
+body > * > * > *::before {
+  color: black;
+
+  background: rgb(234, 255, 45);
+}
+
+body > * > * > * > * {
+  background: rgba(0, 0, 255, 0.2);
+  box-shadow: inset 0 0 0 1px blue;
+}
+
+body > * > * > * > *::before {
+  color: white;
+
+  background: blue;
+}
+
+header::before {
+  content: "header";
+  right: auto;
+  left: 0;
+}
+
+main::before {
+  content: "main";
+  right: auto;
+  left: 0;
+}
+
+footer::before {
+  content: "footer";
+  right: auto;
+  left: 0;
+}
+
+nav::before {
+  content: "nav";
+}
+
+section::before {
+  content: "section";
+}
+
+article::before {
+  content: "acticle";
+}
+
+aside::before {
+  content: "aside";
+}
+
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  content: "h";
+  right: auto;
+  left: 0;
+}
+
+ul::before {
+  content: "ul";
+  right: auto;
+  left: 0;
+}
+
+ol::before {
+  content: "ol";
+  right: auto;
+  left: 0;
+}
+
+p::before {
+  content: "p";
+  right: auto;
+  left: 0;
+}
+

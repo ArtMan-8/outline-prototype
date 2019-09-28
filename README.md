@@ -13,3 +13,4 @@
 1. Можно скачать его, поместить в свой проект и подключить.
 2. Можно создать отдельный файл стилей в своём проекте, и поместить туда содержимое [outline-prototype.css](https://github.com/ArtMan-8/outline-prototype/blob/master/css/outline-prototype.css).
 3. Можно использовать CDN. Для этого скопируй **[эту ссылку](https://rawcdn.githack.com/ArtMan-8/outline-prototype/07f7a9d439da3969ec343e1c2fdac38da94d6b4d/css/outline-prototype.css)** и подключи в своём html.
+4. Можно применить для любого сайта, написав в консоли браузера команду - `s=document.createElement('link');s.rel='stylesheet';s.href='https://rawcdn.githack.com/ArtMan-8/outline-prototype/07f7a9d439da3969ec343e1c2fdac38da94d6b4d/css/outline-prototype.css';document.body.appendChild(s);`

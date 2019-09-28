@@ -4,7 +4,7 @@
 Данный **[outline-prototype.css](https://github.com/ArtMan-8/outline-prototype/blob/master/css/outline-prototype.css)**, подключенный к странице, визуально отображает разные блоки.
 
 ## Как это выглядит
-![](https://raw.githubusercontent.com/ArtMan-8/outline-prototype/master/img/MDN_outline-ptototype.png)
+![](https://raw.githubusercontent.com/ArtMan-8/outline-prototype/master/img/MDN_outline-ptototype.png "нажми, чтобы посмотреть крупнее")
 Основыне блоки **header, main, footer** подсвечиваються широкой красной линией.
 Блоки **nav, section, article, aside** подсвечиваються средней оранжевой линией.
 Остальныйе блоки подсвечиваються соответствующими цветами, согласно их вложенности в DOM-дереве, тонкой линией. Что-бы не запутаться в цветах, использовал *радугу*: красный - самый верхний элемент в DOM-дереве, оранжевый - на уровень ниже, жёлтый - ещё ниже, и т.д. После шестого уровня все элементы красяться в серый цвет.

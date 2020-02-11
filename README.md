@@ -16,10 +16,12 @@
 
 ## Как подключить 
 1. Можно скачать нужный вариант **[outline-prototype](https://github.com/ArtMan-8/outline-prototype/blob/master/css/)**, поместить в свой проект и подключить.
-2. Можно создать отдельный файл стилей в своём проекте, и поместить туда содержимое одного из файлов **[outline-prototype](https://github.com/ArtMan-8/outline-prototype/blob/master/css/)**.
-3. Можно использовать **CDN**. Для этого скопирую ссылку с нужным вариантом, и подключи в своём html
+2. Можно использовать **CDN** и подключить стили. Для этого скопируй ссылку с нужным вариантом, и подключи в своём html
 - Вариант с метками **[outline-prototype-label.css](https://rawcdn.githack.com/ArtMan-8/outline-prototype/7d7765cd572bdec952ca61280d70dd9f1781c153/css/outline-prototype-label.css)**
 - Безопасный вариант **[outline-prototype-safe.css](https://rawcdn.githack.com/ArtMan-8/outline-prototype/7d7765cd572bdec952ca61280d70dd9f1781c153/css/outline-prototype-safe.css)**
+3. Можно использовать **CDN** и подключить скрипт. Для этого скопируй ссылку и подключи в своём html
+**[outline-control.js](https://rawcdn.githack.com/ArtMan-8/outline-prototype/9735cb1ad2dc8b759c76c94fc92f4be68d66798d/js/outline-control.js)**
 4. Можно применить для любого сайта, написав в консоли браузера команду
+- панель переключения стилей `s=document.createElement('script');s.src='https://rawcdn.githack.com/ArtMan-8/outline-prototype/9735cb1ad2dc8b759c76c94fc92f4be68d66798d/js/outline-control.js';document.body.appendChild(s);`
 - вариант с метками `s=document.createElement('link');s.rel='stylesheet';s.href='https://rawcdn.githack.com/ArtMan-8/outline-prototype/7d7765cd572bdec952ca61280d70dd9f1781c153/css/outline-prototype-label.css';document.body.appendChild(s);`
 - безопасный вариант `s=document.createElement('link');s.rel='stylesheet';s.href='https://rawcdn.githack.com/ArtMan-8/outline-prototype/7d7765cd572bdec952ca61280d70dd9f1781c153/css/outline-prototype-safe.css';document.body.appendChild(s);`

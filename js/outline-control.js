@@ -21,12 +21,7 @@
   /* Вставка обвёртки для панельки HTML */
   function createOutlinePanel() {
     section.classList.add('outline-controls');
-    section.style.position = 'fixed';
-    section.style.top = '20px';
-    section.style.left = '20px';
-    section.style.padding = '5px';
-    section.style.borderRadius = '5px';
-    section.style.backgroundColor = '#FFA07A';
+    section.style = 'position: fixed; top: 20px; left: 20px; padding: 5px; border-radius: 5px; background-color: #FFA0A0; z-index: 9999;';
     for (let i = 0; i < 3; i++) {
       let div = document.createElement('div');
       if (i === 0) {
@@ -84,11 +79,7 @@
     let buttonMove = document.createElement('button');
     buttonMove.innerText = 'move';
     buttonMove.classList.add('outline-controls__move');
-    buttonMove.style.display = 'block';
-    buttonMove.style.width = '100%';
-    buttonMove.style.margin = 'auto';
-    buttonMove.style.borderRadius = '5px';
-    buttonMove.style.cursor = 'grab';
+    buttonMove.style = 'display: block; width: 100%; margin: auto; border-radius: 5px; cursor: grab;';
     return buttonMove;
   }
 

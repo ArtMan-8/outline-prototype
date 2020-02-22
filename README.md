@@ -22,6 +22,6 @@
 3. Можно использовать **CDN** и подключить скрипт. Для этого скопируй ссылку и подключи в своём html
 **[outline-control.js](https://rawcdn.githack.com/ArtMan-8/outline-prototype/9735cb1ad2dc8b759c76c94fc92f4be68d66798d/js/outline-control.js)**
 4. Можно применить для любого сайта, написав в консоли браузера команду
-- панель переключения стилей `s=document.createElement('script');s.src='https://rawcdn.githack.com/ArtMan-8/outline-prototype/9735cb1ad2dc8b759c76c94fc92f4be68d66798d/js/outline-control.js';document.body.appendChild(s);`
+- панель переключения стилей `s=document.createElement('script');s.src='https://rawcdn.githack.com/ArtMan-8/outline-prototype/6e68f8a901f0d65253db2531048b1defb9539d38/js/outline-control.js';document.body.appendChild(s);`
 - вариант с метками `s=document.createElement('link');s.rel='stylesheet';s.href='https://rawcdn.githack.com/ArtMan-8/outline-prototype/7d7765cd572bdec952ca61280d70dd9f1781c153/css/outline-prototype-label.css';document.body.appendChild(s);`
 - безопасный вариант `s=document.createElement('link');s.rel='stylesheet';s.href='https://rawcdn.githack.com/ArtMan-8/outline-prototype/7d7765cd572bdec952ca61280d70dd9f1781c153/css/outline-prototype-safe.css';document.body.appendChild(s);`

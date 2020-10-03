@@ -47,7 +47,7 @@ body > * > *::before {
 
 body > * > * > * {
   background: rgba(255, 255, 0, 0.1);
-  border: 1px solid yellow;
+  box-shadow: 0 0 0 1px yellow;
 }
 
 body > * > * > *::before {
@@ -57,7 +57,7 @@ body > * > * > *::before {
 
 body > * > * > * > * {
   background: rgba(0, 128, 0, 0.1);
-  border: 1px solid green;
+  box-shadow: 0 0 0 1px green;
 }
 
 body > * > * > * > *::before {
@@ -67,7 +67,7 @@ body > * > * > * > *::before {
 
 body > * > * > * > * > * {
   background: rgba(0, 0, 255, 0.1);
-  border: 1px dashed blue;
+  box-shadow: inset 0 0 0 1px blue;
 }
 
 body > * > * > * > * > *::before {
@@ -77,7 +77,7 @@ body > * > * > * > * > *::before {
 
 body > * > * > * > * > * > * {
   background: rgba(148, 0, 211, 0.1);
-  border: 1px dashed darkviolet;
+  box-shadow: inset 0 0 0 1px darkviolet;
 }
 
 body > * > * > * > * > * > *::before {

@@ -59,8 +59,8 @@
   /* Переключение стилей */
   outlinePanel.addEventListener('change', onOutlinePanelChoice);
   function onOutlinePanelChoice(evt) {
-    const outlineSafe = 'https://rawcdn.githack.com/ArtMan-8/outline-prototype/74a457321b9911ae91340f06747662f81606caa3/css/outline-prototype-safe.css';
-    const outlinelabel = 'https://rawcdn.githack.com/ArtMan-8/outline-prototype/74a457321b9911ae91340f06747662f81606caa3/css/outline-prototype-label.css';
+    const outlinelabel = 'https://rawcdn.githack.com/ArtMan-8/outline-prototype/5774cf08d7af2205446a93b345ec0a7bcd0546ed/css/outline-prototype-label.css';
+    const outlineSafe = 'https://rawcdn.githack.com/ArtMan-8/outline-prototype/5774cf08d7af2205446a93b345ec0a7bcd0546ed/css/outline-prototype-safe.css';
     switch (evt.target.id) {
       case 'labelsOn':
         cssStyle.href = outlinelabel;

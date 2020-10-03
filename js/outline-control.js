@@ -59,8 +59,8 @@
   /* Переключение стилей */
   outlinePanel.addEventListener('change', onOutlinePanelChoice);
   function onOutlinePanelChoice(evt) {
-    const outlineSafe = 'https://rawcdn.githack.com/ArtMan-8/outline-prototype/7d7765cd572bdec952ca61280d70dd9f1781c153/css/outline-prototype-safe.css';
-    const outlinelabel = 'https://rawcdn.githack.com/ArtMan-8/outline-prototype/7d7765cd572bdec952ca61280d70dd9f1781c153/css/outline-prototype-label.css';
+    const outlineSafe = 'https://rawcdn.githack.com/ArtMan-8/outline-prototype/74a457321b9911ae91340f06747662f81606caa3/css/outline-prototype-safe.css';
+    const outlinelabel = 'https://rawcdn.githack.com/ArtMan-8/outline-prototype/74a457321b9911ae91340f06747662f81606caa3/css/outline-prototype-label.css';
     switch (evt.target.id) {
       case 'labelsOn':
         cssStyle.href = outlinelabel;
@@ -87,14 +87,14 @@
   outlineMove.addEventListener('mousedown', onMoveMousedown);
   function onMoveMousedown(evt) {
     evt.preventDefault();
-    var startCoordinates = {
+    let startCoordinates = {
       x: evt.clientX,
       y: evt.clientY
     };
 
-    var onMousemove = function (moveEvt) {
+    let onMousemove = function (moveEvt) {
       moveEvt.preventDefault();
-      var shift = {
+      let shift = {
         x: startCoordinates.x - moveEvt.clientX,
         y: startCoordinates.y - moveEvt.clientY
       };
@@ -108,7 +108,7 @@
       outlinePanel.style.top = (outlinePanel.offsetTop - shift.y) + 'px';
     };
 
-    var onMouseup = function (upEvt) {
+    let onMouseup = function (upEvt) {
       upEvt.preventDefault();
       document.removeEventListener('mousemove', onMousemove);
       document.removeEventListener('mouseup', onMouseup);

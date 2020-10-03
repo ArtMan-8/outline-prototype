@@ -1,6 +1,5 @@
 * {
   position: relative;
-
   background: rgba(169, 169, 169, 0.1);
   box-shadow: inset 0 0 0 1px darkgrey;
 }
@@ -28,12 +27,11 @@
 
 body > * {
   background: rgba(255, 0, 0, 0.1);
-  box-shadow: 0 0 0 2px red;
+  box-shadow: 0 0 0 4px red;
 }
 
 body > *::before {
   color: white;
-
   background: red;
 }
 
@@ -44,51 +42,46 @@ body > * > * {
 
 body > * > *::before {
   color: white;
-
   background: orange;
 }
 
 body > * > * > * {
   background: rgba(255, 255, 0, 0.1);
-  box-shadow: inset 0 0 0 2px yellow;
+  border: 1px solid yellow;
 }
 
 body > * > * > *::before {
   color: black;
-
   background: yellow;
 }
 
 body > * > * > * > * {
   background: rgba(0, 128, 0, 0.1);
-  box-shadow: inset 0 0 0 1px green;
+  border: 1px solid green;
 }
 
 body > * > * > * > *::before {
   color: white;
-
   background: green;
 }
 
 body > * > * > * > * > * {
   background: rgba(0, 0, 255, 0.1);
-  box-shadow: inset 0 0 0 1px blue;
+  border: 1px dashed blue;
 }
 
 body > * > * > * > * > *::before {
   color: white;
-
   background: blue;
 }
 
 body > * > * > * > * > * > * {
   background: rgba(148, 0, 211, 0.1);
-  box-shadow: inset 0 0 0 1px darkviolet;
+  border: 1px dashed darkviolet;
 }
 
 body > * > * > * > * > * > *::before {
   color: white;
-
   background: darkviolet;
 }
 
@@ -96,7 +89,7 @@ body > * > * > * > * > * > *::before {
 header,
 main,
 footer {
-  box-shadow: 0 0 0 5px red;
+  box-shadow: 0 0 0 4px red;
 }
 
 header::before,
@@ -127,7 +120,7 @@ nav,
 section,
 article,
 aside {
-  box-shadow: 0 0 0 3px orange;
+  box-shadow: 0 0 0 2px orange;
 }
 
 nav::before,

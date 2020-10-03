@@ -14,8 +14,8 @@
 >**Внимание!** Готовый макет или сайт может ломать, используйте осторожно.
 2. 2й вариант безопасный - **[outline-prototype-safe.css](https://github.com/ArtMan-8/outline-prototype/blob/master/css/outline-prototype-safe.css)** - подойдёт для финальной разметки макетов, и для инспектирования блоков на готовом сайте. Ничего не ломает.
 
-## Как подключить 
+## Как подключить
 1. Можно скачать нужный вариант **[outline-prototype](https://github.com/ArtMan-8/outline-prototype/blob/master/css/)**, поместить в свой проект и подключить.
 2. Можно использовать **CDN** и подключить панель с переключателем стилей. Для этого скопируй ссылку и подключи в своём html
 **[outline-control.js](https://rawcdn.githack.com/ArtMan-8/outline-prototype/9735cb1ad2dc8b759c76c94fc92f4be68d66798d/js/outline-control.js)**
-3. Можно подключить панель с переключателем стилей на любой сайта, написав в консоли браузера команду `s=document.createElement('script');s.src='https://rawcdn.githack.com/ArtMan-8/outline-prototype/6e68f8a901f0d65253db2531048b1defb9539d38/js/outline-control.js';document.body.appendChild(s);`
+3. Можно подключить панель с переключателем стилей на любой сайта, написав в консоли браузера команду `s=document.createElement('script');s.src='https://rawcdn.githack.com/ArtMan-8/outline-prototype/49e95a9eaa3beb681fc68ebd319571fbcbd99db8/js/outline-control.js';document.body.appendChild(s);`
